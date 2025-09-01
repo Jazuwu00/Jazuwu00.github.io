@@ -36,10 +36,10 @@ type Props = {
 };
 function Proyect({ images, description, title, link, technologies }: Props) {
   return (
-    <div className="mb-6  flex flex-col    gap-4 lg:flex-row lg:gap-20 lg:justify-between ">
+    <div className="mb-6  flex flex-col  text-slate-300 gap-4 lg:flex-row lg:gap-20 lg:justify-between ">
       <div className="flex flex-col  lg:w-3/4  gap-4 ">
         <div className=" flex justify-between items-center ">
-          <h1 className=" font-bold text-2xl">{title}</h1>
+          <h1 className=" font-bold text-2xl text-links capitalize">{title}</h1>
           <a
             href={link}
             className="cursor-pointer font-bold tracking-widest"
@@ -59,7 +59,7 @@ function Proyect({ images, description, title, link, technologies }: Props) {
                   {technologyIcons[tech]}
                 </span>
               ) : (
-                <span key={tech} className="text-xs italic text-gray-500">
+                <span key={tech} className="text-xs italic">
                   {tech}
                 </span>
               )

@@ -1,4 +1,4 @@
-
+import MainTitle from "../MainTitle";
 import Proyect from "./Proyect";
 
 const imagesTicTacToe = [
@@ -27,10 +27,11 @@ const imagesDamas = [
 function Proyects() {
   return (
     <div
-      className="relative z-20  text-white overflow-hidden  p-4 lg:px-20"
+      className="relative z-20   overflow-hidden  p-4 lg:px-20"
       id="proyects"
     >
-      <h2 className=" font-bold text-3xl mb-6  w-full border-2 rounded-3xl p-4 border-white/10 ">Proyects</h2>
+      <MainTitle title="Proyects" />
+
       <Proyect
         title="To do list"
         description="a to-do list made with React, it has a responsive design and you can add, delete and mark tasks as completed"
@@ -43,7 +44,7 @@ function Proyects() {
         description="a checkers game made with Java and MySQL as the database, in the game you can play against another player, save your game, view the rules, and charge your game"
         link="https://github.com/Jazuwu00/Damas"
         images={imagesDamas}
-        technologies={["Java", "MySQL"]}
+        technologies={["Java", "Mysql"]}
       />
 
       <Proyect

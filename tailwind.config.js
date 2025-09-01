@@ -10,13 +10,13 @@ module.exports = {
         serif: ['Merriweather', 'serif'],
       },
       colors: {
-        primary: '#4f46e5ff',
+        primary: '#ffffffff',
         secondary: '#7186e6ff',
         accent: '#5c0fa5ff',
-        background: '#f3f4f6',
+        background: '#3B38A0',
         foreground: '#111827',
         overlay: 'rgba(0, 0, 0, 0.8)',
-        links:'#78288c'
+        links:'#B2A5FF',
       },
       fontSize: {
         xs: ['0.75rem', '1rem'],

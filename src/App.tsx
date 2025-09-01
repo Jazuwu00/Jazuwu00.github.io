@@ -9,16 +9,9 @@ import Proyects from './components/proyects';
 
 const App: React.FC = () => {
     return (
-        <div className="App relative min-h-screen">
-            {/* Fondo gif */}
-            <img
-                src="./assets/backgroundCode.gif"
-                alt="background"
-                className="fixed inset-0 w-full h-full object-cover z-0"
-            />
-            {/* Overlay */}
-            <div className="fixed inset-0 bg-overlay z-10"></div>
-            <div className="relative z-20">
+        <div className="App relative min-h-screen bg-background ">
+          
+            <div className="relative z-20 flex flex-col gap-10">
                 <Header />
                 <AboutMe />
                 

@@ -1,4 +1,5 @@
 import React from 'react'
+import MainTitle from '../MainTitle'
 const frontendTasks = [
   "Build responsive user interfaces",
   "Fix UI bugs and improve user experience",
@@ -8,8 +9,8 @@ const frontendTasks = [
 ]
 function Experience() {
   return (
-    <div className='relative z-20  text-white overflow-hidden  p-4 lg:px-20' id='experience'>
-        <h2 className=" font-bold text-3xl mb-6  w-full border-2 rounded-3xl p-4 border-white/10 ">Experience</h2>
+    <div className='relative z-20  text-primary overflow-hidden  p-4 lg:px-20' id='experience'>
+      <MainTitle title='Experience' />
         <div>
             <div className='flex flex-row items-center justify-between '>
                 <h1 className=' font-bold text-lg'>Khemlabs</h1>

@@ -1,4 +1,5 @@
 import React from "react";
+import MainTitle from "../MainTitle";
 const excelTasks = [
   "navigation, formatting, and data manipulation.",
   "create and customize charts and graphs to visually represent data.",
@@ -39,11 +40,11 @@ const CodoACodoTasks = [
 function Courses() {
   return (
     <div
-      className="relative z-20  text-white overflow-hidden  p-4 lg:px-20"
+      className="relative z-20  text-primary overflow-hidden  p-4 lg:px-20"
       id="courses"
     >
-      <h2 className=" font-bold text-3xl mb-6  w-full border-2 rounded-3xl p-4 border-white/10 ">Courses</h2>
-        <div className="mb-6">
+      <MainTitle title="Courses" />
+      <div className="mb-6">
         <div className="flex flex-row items-center justify-between">
           <h1 className="font-bold text-lg">
             Higher Technician in Systems Analysis
@@ -83,7 +84,7 @@ function Courses() {
           ))}
         </ul>
       </div>
-       <div className="mb-6">
+      <div className="mb-6">
         <div className="flex flex-row items-center justify-between ">
           <h1 className=" font-bold text-lg">Ingles</h1>
           <span>2022 - present</span>
@@ -95,7 +96,7 @@ function Courses() {
           ))}
         </ul>
       </div>
-       <div className="mb-6">
+      <div className="mb-6">
         <div className="flex flex-row items-center justify-between ">
           <h1 className=" font-bold text-lg">JS FRONT-END</h1>
           <span>2022 - 2022</span>
@@ -107,7 +108,7 @@ function Courses() {
           ))}
         </ul>
       </div>
-       <div className="mb-6">
+      <div className="mb-6">
         <div className="flex flex-row items-center justify-between ">
           <h1 className=" font-bold text-lg">Excel avanzado</h1>
           <span>2022 - 2022</span>

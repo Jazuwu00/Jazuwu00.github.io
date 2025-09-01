@@ -49,7 +49,7 @@ function Carousel({images}:Props) {
         aria-label="Previous slide"
       >
         <span className="inline-flex items-center justify-center w-10 h-10 bg-white/30 rounded-full group-hover:bg-white/50">
-          <svg className="w-4 h-4 text-white" fill="none" viewBox="0 0 6 10">
+          <svg className="w-4 h-4 text-primary" fill="none" viewBox="0 0 6 10">
             <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 1L1 5l4 4"/>
           </svg>
         </span>
@@ -61,7 +61,7 @@ function Carousel({images}:Props) {
         aria-label="Next slide"
       >
         <span className="inline-flex items-center justify-center w-10 h-10 bg-white/30 rounded-full group-hover:bg-white/50">
-          <svg className="w-4 h-4 text-white" fill="none" viewBox="0 0 6 10">
+          <svg className="w-4 h-4 text-primary" fill="none" viewBox="0 0 6 10">
             <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 9l4-4L1 1"/>
           </svg>
         </span>
